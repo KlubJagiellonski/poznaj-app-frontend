@@ -16,7 +16,7 @@ module.exports = {
     entry: './client/index.js',
     output: {
         path: path.resolve('dist'),
-        filename: 'index_bundle.js'
+        filename: '[name].[hash].js'
     },
     module: {
         loaders: [
