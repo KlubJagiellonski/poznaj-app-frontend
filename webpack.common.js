@@ -32,14 +32,29 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader'
+                use: [
+                    { loader: 'style-loader' },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            importLoaders: 1,
+                        }
+                    },
+                    { loader: 'postcss-loader' }
+                ]
             },
             {
                 test: /\.less$/,
                 use: [
-                    {loader: 'style-loader'},
-                    {loader: 'css-loader'},
-                    {loader: 'less-loader'}
+                    { loader: 'style-loader' },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            importLoaders: 1,
+                        }
+                    },
+                    { loader: 'postcss-loader' },
+                    { loader: 'less-loader' }
                 ]
             },
             {
