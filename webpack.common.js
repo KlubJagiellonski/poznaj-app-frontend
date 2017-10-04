@@ -18,6 +18,12 @@ module.exports = {
         path: path.resolve('dist'),
         filename: '[name].[hash].js'
     },
+    resolve: {
+        modules: [
+            path.resolve('./client'),
+            path.resolve('./node_modules')
+        ]
+    },
     module: {
         loaders: [
             {
