@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import KlubJagiellonskiLogo from 'public/images/klub_jagiellonski_logo.png';
 import KodujDlaPolskiLogo from 'public/images/koduj_dla_polski_logo.png';
@@ -6,7 +7,7 @@ import KodujDlaPolskiLogo from 'public/images/koduj_dla_polski_logo.png';
 import './styles.less';
 
 
-export default function Header ({showTitle = true}) {
+export default function Header({showTitle = true}) {
     return (
         <header className="main-header">
             {showTitle && <h1>PoznajApp</h1>}
@@ -22,3 +23,7 @@ export default function Header ({showTitle = true}) {
         </header>
     );
 }
+
+Header.propTypes = {
+    showTitle: PropTypes.bool
+};
