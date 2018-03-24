@@ -1,7 +1,7 @@
 {
   "name": "poznaj-app-frontend",
   "version": "1.0.0",
-  "description": "React website (front-end) for PoznajApp by Klub Jagielloński & Koduj dla Polski.",
+  "description": "Front-end for PoznajApp by Klub Jagielloński & Koduj dla Polski.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js",
@@ -57,8 +57,8 @@
     "webpack-merge": "^4.1.2"
   },
   "dependencies": {
-    "react": "^15.6.2",
-    "react-dom": "^15.6.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "semantic-ui-css": "^2.3.1",
     "semantic-ui-react": "^0.74.2"
   }
