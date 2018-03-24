@@ -1,29 +1,40 @@
 @import "~commons";
 
-body {
+.main-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 100vh;
+    
     color: @text-primary-color;
 }
 
 .main-content {
+    margin-top: -100px;
     padding: 80px 0;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+    
     text-align: center;
     .text-primary-shadow();
 
     h2 {
         margin: 0;
         margin-bottom: 20px;
+
         font-size: 4.5rem;
-        font-weight: normal;
     }
 
     &-invitation-text {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
 
         p {
             display: block;
             margin: 0 auto;
             padding: 0 35px;
             max-width: 1200px;
+
             font-size: 1.5rem;
         }
     }

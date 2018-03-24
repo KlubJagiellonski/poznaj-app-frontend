@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Content() {
     return (
-        <section className="main-content">
+        <main className="main-content">
             <h2>PoznajApp</h2>
             <div className="main-content-invitation-text">
                 <p>Aplikacja PoznajApp została stworzona by pomóc Ci poznać miejsce w którym mieszkasz.</p>
@@ -14,6 +14,6 @@ export default function Content() {
                 <button>iOS</button>
                 <button>Web</button>
             </div>
-        </section>
+        </main>
     );
 }
