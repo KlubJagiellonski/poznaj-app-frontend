@@ -1,9 +1,24 @@
+@import "~commons";
+
 .main-header {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 25px 35px;
-    color: #ffffff;
+    align-items: center;
+    padding: 30px 35px;
+    color: @text-primary-color;
+
+    h1 {
+        margin: 0;
+        font-size: 3rem;
+        font-weight: lighter;
+        .text-primary-shadow();
+
+        a {
+            color: @text-primary-color;
+            text-decoration: none;
+        }
+    }
 
     .header-logos {
         a {

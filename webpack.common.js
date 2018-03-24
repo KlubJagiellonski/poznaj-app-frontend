@@ -22,6 +22,15 @@ module.exports = {
         modules: [
             path.resolve('./client'),
             path.resolve('./node_modules')
+        ],
+        alias: {
+            commons: path.resolve('./client/commons.less')
+        },
+        extensions: [
+            '.js',
+            '.jsx',
+            '.css',
+            '.less'
         ]
     },
     module: {
