@@ -1,0 +1,40 @@
+@import '~commons';
+
+footer {
+    display: flex;
+    justify-content: center;
+    
+    padding: 30px 35px;
+
+    a {
+        color: @text-primary-color;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            color: @accent-color;
+        }
+    }
+
+    .footer-list-title, ul {
+        float: left;
+    }
+
+    ul {
+        margin: 0;
+        padding-left: 40px;
+    }
+
+    ul, li {
+        list-style: none;
+    }
+
+    .footer-publisher {
+        width: auto;
+    }
+
+    .footer-team {
+        padding-left: 100px;
+        width: auto;
+    }
+}
