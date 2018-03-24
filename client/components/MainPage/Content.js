@@ -3,13 +3,13 @@ import React from 'react';
 
 export default function Content() {
     return (
-        <section>
-            <h1>PoznajApp</h1>
-            <h2>
-                Aplikacja Poznajapp została stworzona by pomóc Ci poznać miejsce w którym mieszkasz.
-                Zabierając PoznajApp na spacer możesz odkryć jakie niezwykłe historie kryją miejsca Twojego miasta.
-            </h2>
-            <div>
+        <section className="main-content">
+            <h2>PoznajApp</h2>
+            <div className="main-content-invitation-text">
+                <p>Aplikacja PoznajApp została stworzona by pomóc Ci poznać miejsce w którym mieszkasz.</p>
+                <p>Zabierając PoznajApp na spacer możesz odkryć jak niezwykłe historie kryją zakątki Twojego miasta.</p>
+            </div>
+            <div className="main-content-action-buttons">
                 <button>Andoid</button>
                 <button>iOS</button>
                 <button>Web</button>
