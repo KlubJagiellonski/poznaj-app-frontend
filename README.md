@@ -1,2 +1,3 @@
 # PoznajApp front-end
-A website (React front-end) for Poznaj Wrocław app by Klub Jagielloński.
+
+Front-end for PoznajApp by Klub Jagielloński.
