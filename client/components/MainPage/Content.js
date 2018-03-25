@@ -20,7 +20,7 @@ export default function Content() {
                     onMouseEnter={mouseButtonEnter}
                     onMouseLeave={mouseButtonLeave}
                 >
-                    Andoid
+                    Android
                 </a>
                 <a
                     className="main-content-button main-content-button-ios"
