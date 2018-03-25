@@ -82,3 +82,33 @@
         }
     }
 }
+
+
+@media screen and (max-width: @screen-small)  {
+    .main-content {
+        margin-top: -20px;
+
+        &-invitation-text {
+            margin-bottom: 40px;
+        }
+
+        &-action-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            margin: 0;
+        }
+
+        &-button {
+            display: block;
+            margin: 20px;
+            width: 40%;
+            padding: 20px 30px;
+
+            border-radius: 8px;
+
+            font-size: 1.5rem;
+        }
+    }
+}

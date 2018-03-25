@@ -40,3 +40,27 @@ footer {
         width: auto;
     }
 }
+
+
+@media screen and (max-width: @screen-medium) {
+    footer {
+        margin-top: 30px;
+
+        .footer-list-title {
+            display: inline-block;
+            margin-bottom: 15px;
+        }
+
+        .footer-list-title, ul {
+            float: none;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    }
+}
