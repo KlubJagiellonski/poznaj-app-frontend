@@ -26,8 +26,8 @@ export default function Content() {
                     className="main-content-button main-content-button-ios"
                     href="/"
                     // target="_blank"
-                    onMouseEnter={mouseButtonEnter}
-                    onMouseLeave={mouseButtonLeave}
+                    // onMouseEnter={mouseButtonEnter}
+                    // onMouseLeave={mouseButtonLeave}
                     data-tip="Opcja dostępna wkrótce."
                 >
                     iOS
@@ -36,8 +36,8 @@ export default function Content() {
                     className="main-content-button main-content-button-web"
                     href="/"
                     // target="_blank"
-                    onMouseEnter={mouseButtonEnter}
-                    onMouseLeave={mouseButtonLeave}
+                    // onMouseEnter={mouseButtonEnter}
+                    // onMouseLeave={mouseButtonLeave}
                     data-tip="Opcja dostępna wkrótce."
                 >
                     Web

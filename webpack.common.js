@@ -24,6 +24,7 @@ module.exports = {
             path.resolve('./node_modules')
         ],
         alias: {
+            images: path.resolve('./client/public/images'),
             commons: path.resolve('./client/commons.less')
         },
         extensions: [
