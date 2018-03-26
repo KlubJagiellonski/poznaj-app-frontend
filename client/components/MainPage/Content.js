@@ -17,8 +17,6 @@ export default function Content() {
                     className="main-content-button main-content-button-android"
                     href="https://play.google.com/store/apps/details?id=pl.poznajapp"
                     target="_blank"
-                    onMouseEnter={mouseButtonEnter}
-                    onMouseLeave={mouseButtonLeave}
                 >
                     Android
                 </a>
@@ -26,33 +24,12 @@ export default function Content() {
                     className="main-content-button main-content-button-ios"
                     href="/"
                     // target="_blank"
-                    // onMouseEnter={mouseButtonEnter}
-                    // onMouseLeave={mouseButtonLeave}
                     data-tip="Opcja dostępna wkrótce."
                 >
                     iOS
-                </a>
-                <a
-                    className="main-content-button main-content-button-web"
-                    href="/"
-                    // target="_blank"
-                    // onMouseEnter={mouseButtonEnter}
-                    // onMouseLeave={mouseButtonLeave}
-                    data-tip="Opcja dostępna wkrótce."
-                >
-                    Web
                 </a>
                 <ReactTooltip />
             </div>
         </main>
     );
-}
-
-
-function mouseButtonEnter () {
-    document.body.classList.add('radial-blur');
-}
-
-function mouseButtonLeave () {
-    document.body.classList.remove('radial-blur');
 }
