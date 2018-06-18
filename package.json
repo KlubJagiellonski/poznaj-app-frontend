@@ -4,6 +4,7 @@
   "description": "Front-end for PoznajApp by Klub Jagielloński & Koduj dla Polski.",
   "main": "index.js",
   "scripts": {
+    "postinstall": "webpack -p",
     "start": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "eslint": "node_modules/.bin/eslint",
