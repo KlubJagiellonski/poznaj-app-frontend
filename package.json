@@ -62,9 +62,9 @@
     "react-dom": "^16.2.0",
     "react-tooltip": "^3.4.0",
     "webfontloader": "^1.6.28"
-  }
+  },
   "engines": {
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
-  },
+  }
 }
