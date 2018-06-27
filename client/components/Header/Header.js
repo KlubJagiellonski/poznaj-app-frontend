@@ -17,7 +17,7 @@ export default function Header({showTitle = true}) {
             )}
 
             <div className="header-logos">
-                <a href="http://kj.org.pl/" target="_blank">
+                <a href="http://klubjagiellonski.pl/" target="_blank">
                     <img src={KlubJagiellonskiLogo} alt="Logo Klubu Jagiellońskiego" />
                 </a>
                 <a href="https://kodujdlapolski.pl/" target="_blank">

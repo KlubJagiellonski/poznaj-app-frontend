@@ -9,7 +9,8 @@ export default function Footer() {
             <div className="footer-publisher">
                 <span className="footer-list-title">Wydawca:</span>
                 <ul>
-                    <li><a href="http://kj.org.pl" target="_blank">Klub Jagielloński</a></li>
+                    <li><a href="http://klubjagiellonski.pl/" target="_blank">Klub Jagielloński</a></li>
+                    <li><a href="mailto:rafal.gawlik@kodujdlapolski.pl" target="_blank">kontakt</a></li>
                 </ul>
             </div>
             <div className="footer-team">
