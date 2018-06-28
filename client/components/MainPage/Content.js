@@ -10,6 +10,11 @@ export default function Content() {
             <div className="main-content-invitation-text">
                 <p>Aplikacja PoznajApp została stworzona by pomóc Ci poznać miejsce w którym mieszkasz.</p>
                 <p>Zabierając PoznajApp na spacer możesz odkryć jak niezwykłe historie kryją zakątki Twojego miasta.</p>
+                <p>
+                    <a href="https://rafalgawlik.github.io/2018-06-23-poznajapp-released/" target="_blank">
+                        więcej o projekcie
+                    </a>
+                </p>
             </div>
             
             <div className="main-content-action-buttons">
